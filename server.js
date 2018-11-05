@@ -12,7 +12,7 @@ app.set('view engine', 'hbs');
 
 
 app.get('/',(req,res) =>{
-    //res.send('<h1>hello express</h1>');
+   
     res.render('index.hbs');
 });
 
